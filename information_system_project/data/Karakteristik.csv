@@ -1,0 +1,92 @@
+"No","Nama","jenis.kelamin","Usia","Pendidikan","Pekerjaan.Utama","Pekerjaan.Sampingan","Memulai.Usaha","Jenis.Usaha","skala.usaha"
+1,"Asep",2,59,"3","Kepala desa","Petani",1995,"Pertanian",1
+2,"Daday",2,48,"3","Kaur desa","Petani",2012,"Pertanian",1
+3,"Latief Sutisna",2,40,"3","Sekretaris desa","Wiraswasta",2022,"Peternakan",1
+4,"Endas Rahman",2,48,"3","Kepala dusun","Petani",2009,"Pertanian",1
+5,"Encep",2,42,"3","Kepala dusun","Petani",2005,"Pertanian",1
+6,"Erwin Suhendar",2,46,"3","Driver online","Petani",2018,"Pertanian",1
+7,"Cep Udun",2,37,"5","Guru SD","Petani",2015,"Pertanian",1
+8,"Irgi Ramdhani",2,19,"3","Harian lepas","UMKM serabutan",2023,"UMKM",1
+9,"Jariah",1,52,"1","Warung","Petani",2016,"Pertanian",1
+10,"Anang",2,43,"1","Kuli bangunan","Bengkel elektro",2012,"UMKM",1
+11,"M. Ardiansyah",2,37,"1","Serabutan","Petani",2010,"Pertanian",1
+12,"Lia",1,30,"2","Warung","Kader posyandu",2020,"UMKM",1
+13,"Azis",2,41,"2","Karyawan PT Tamaris","Petani",2010,"Pertanian",1
+14,"Nana Mulyana",2,47,"3","Petani","Warung",2000,"Pertanian",1
+15,"Nani",1,56,"1","Warung","Petani",1975,"Pertanian",1
+16,"Ayi Nurjannah",1,52,"5","Guru SD","Petani",2021,"Pertanian",1
+17,"Ika Sukandi",2,42,"5","Kepala Desa","",NA,"",NA
+18,"Iman",2,29,"3","Staff desa","",NA,"",NA
+19,"Muhammad Muid",2,23,"3","Staff desa","Pelatih Paskibra",NA,"",NA
+20,"Imas",1,27,"3","Staff desa","",NA,"",NA
+21,"Sumardi",2,33,"5","Staff desa","",NA,"",NA
+22,"Saroh",1,41,"1","Pedagang","",2006,"UMKM",3
+23,"Oman",2,72,"1","Buruh Tani","",NA,"",NA
+24,"Nunung",1,50,"1","Ibu Rumah Tangga","",NA,"",NA
+25,"Tati",1,36,"1","Ibu Rumah Tangga","",NA,"",NA
+26,"Jali",2,53,"1","Linmas","",NA,"",NA
+27,"Juhe",1,45,"1","Ibu Rumah Tangga","Pedagang",2021,"UMKM",1
+28,"Uganar",2,35,"2","Buruh Tani","",NA,"",NA
+29,"Suni",1,45,"1","Ibu Rumah Tangga","",NA,"",NA
+30,"Yati",1,39,"1","Ibu Rumah Tangga","Buruh Tani",2014,"Pertanian",1
+31,"Ruminah",1,50,"1","Ibu Rumah Tangga","",NA,"",NA
+32,"Jaji Suparda",2,56,"3","Kepala desa","Ternak kambing",2012,"Peternakan",2
+33,"Ridwan Sutrisno",2,39,"3","Wiraswasta","Jual herbal jahe merah dan keripik pisang",2019,"UMKM",1
+34,"Badri Saleh",2,55,"3","Staff Desa","Jual Voucher Wifi",2018,"UMKM",2
+35,"Iip Saepulloh",2,36,"3","Perangkat Desa","Jualan",2000,"UMKM",2
+36,"Humaeroh",1,27,"5","Perangkat Desa","Jualan",2019,"UMKM",2
+37,"Kanda",2,43,"1","Jual Klontongan","Ketua RW 05",2008,"UMKM",2
+38,"Nurdin",2,50,"2","Pedagang bubur ayam","",2011,"UMKM",2
+39,"Iwan ridwan",2,52,"3","Buruh Harian Lepas","Ternak jangkrik",2018,"UMKM",2
+40,"Heri Zulfana",2,60,"2","Depot dan Bensin","Ketua RW 06",2017,"UMKM",2
+41,"Endang Makmun",2,53,"3","Pedagang","",2000,"UMKM",3
+42,"Encep Saepulloh",2,50,"1","Petani","Jualan",1994,"Pertanian / Makanan",3
+43,"Sugiyono",2,58,"2","Pedagang","",1994,"UMKM",2
+44,"Rohadi",2,49,"1","Buruh Harian Lepas","",2007,"",NA
+45,"Anda Suganda",2,54,"1","Buruh Harian Lepas","Usaha las",2015,"UMKM",2
+46,"Supardan",2,40,"2","Pedagang cat keliling","",2015,"UMKM",1
+47,"Basuni",2,52,"3","Kepala Desa","Ternak ikan mas",2015,"Perikanan",1
+48,"Hafidz Nur",2,38,"5","Perangkat Desa","Pedagang",2018,"UMKM",1
+49,"Taufikurahman",2,37,"3","Kasi Kesejahteraan","Bengkel Motor",2000,"UMKM",2
+50,"Ripal Lubis",2,24,"3","Staff Desa","",NA,"",NA
+51,"Nanang Juandi",2,43,"3","Staff Desa","",NA,"",NA
+52,"Amirudin",2,37,"1","Mengambil Pasir","",2020,"UMKM",2
+53,"Irsyad",2,40,"1","Mengambil Pasir","Bertani",2013,"UMKM",2
+54,"Usni",2,54,"1","Tambak Ikan","Jual Bambu",2017,"Perikanan",1
+55,"Deden Ariawan",2,52,"3","Wiraswasta","Serabutan",1995,"UMKM",1
+56,"Rudi Yulianto",2,48,"3","Wiraswasta","Serabutan",1995,"UMKM",1
+57,"Barnas",2,67,"1","Petani","Jual Beli Kambing",1990,"Pertanian",3
+58,"Rahmat KR",2,54,"1","Sopir","Petani",2003,"Pertanian",3
+59,"Suhadi",2,55,"3","Wiraswasta","Serabutan",1995,"UMKM",1
+60,"Mudrika",2,51,"3","Wiraswasta","Jualan",1995,"UMKM",1
+61,"Tuqinu",2,45,"1","Mengambil Pasir","",2020,"UMKM",2
+62,"Ede Sukmana",2,47,"3","Kepala Desa","Peternak kambing",1988,"Peternakan",2
+63,"Herman Wahyudin",2,45,"5","Sekretaris Desa","",NA,"",NA
+64,"Ramdan Cahya K",2,27,"5","Staff Desa","Petani",2022,"Petani",1
+65,"Yasir Kurnia",2,26,"5","Staff Desa","",NA,"",NA
+66,"Fattimah",1,45,"3","Staff Desa","",NA,"",NA
+67,"Koko",2,52,"2","Usaha Beras","Petani",1996,"UMKM",2
+68,"Uus Dirgahayu",2,47,"3","Wiraswasta","Berkebun",2009,"UMKM",3
+69,"Nano ardiansya",2,40,"4","Pedagang","",2017,"UMKM",3
+70,"Diman Sugriwa",2,73,"1","Petani","Menggiling padi",2006,"UMKM",2
+71,"Ahidin",2,62,"1","Petani","Warung dan Produksi sale",2018,"UMKM",2
+72,"Oti Mulyati",1,44,"2","Petani","Dagang",2015,"UMKM",2
+73,"Yaya Rahalia",2,70,"2","Pensiunan","",2010,"Pertanian",3
+74,"Conny Putra Pratama",2,45,"3","Pedagang","",2020,"UMKM",3
+75,"Ida Sumartini",1,28,"3","Ibu Rumah Tangga","Warung",2018,"UMKM",1
+76,"Neni",1,52,"1","Ibu Rumah Tangga","Ternak",1987,"Peternakan",2
+77,"Sumadri",2,59,"SMP","Kepala Desa","Berkebun",NA,"Pertanian",2
+78,"Rochim",2,49,"SMA","Perangkat desa","Petani",2013,"UMKM",1
+79,"Abdul Aziz",2,45,"SMA","Perangkat desa","Petani",2010,"Pertanian",2
+80,"Tri Sri Hartati",1,30,"SMA","Perangkat desa","Ibu rumah tangga",NA,"",NA
+81,"Caskuat",2,34,"SMA","Perangkat desa","Petani",NA,"",NA
+82,"Kasmirah",1,41,"SMA","Ibu Rumah Tangga","",NA,"",NA
+83,"Casrini",1,32,"SMA","Ibu Rumah Tangga","",NA,"",NA
+84," Tusriyah",1,33,"SMA","Ibu Rumah Tangga","",NA,"",NA
+85,"Kusrini",1,37,"SMA","Ibu Rumah Tangga","",NA,"",NA
+86,"Turokhmi",1,35,"SMA","Ibu Rumah Tangga","",NA,"",NA
+87,"Casmudi",2,39,"SMP","Peternak","Pedagang",2017,"UMKM",1
+88,"Ucup",2,38,"SMA","Tidak bekerja","",NA,"",NA
+89,"Casromo",2,54,"SD","Tidak bekerja","",2015,"UMKM",2
+90,"Iin Inarotul Uyun",1,27,"SMP","Ibu Rumah Tangga","",2014,"UMKM",2
+91,"Anggun",1,17,"SMA","Pelajar","",NA,"",NA

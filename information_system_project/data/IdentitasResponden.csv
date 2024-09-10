@@ -1,0 +1,151 @@
+No,Jenis.kelamin,Usia.tahun,Status.perkawinan,Apakah.memiliki.anak,Jumlah.anak.orang,Tingkat.pendidikan,Apakah.anda.bekerja.saat.ini,Jika.bekerja.apa.pekerjaan.anda.saat.ini
+1,2,59,2,1,2,4,1,Kepala desa
+2,2,48,2,1,3,4,1,Perangkat desa (KAUR)
+3,2,40,2,1,2,4,1,Perangkat desa (Sekretaris)
+4,2,48,2,2,0,4,1,Perangkat desa (Kepala dusun)
+5,2,42,2,1,3,4,1,Perangkat desa (Kepala dusun)
+6,1,26,2,1,1,6,1,Guru
+7,1,41,2,1,1,3,2,Kader posyandu
+8,2,52,2,1,2,2,1,Petani
+9,1,23,2,1,1,2,1,Warung
+10,1,39,2,1,2,6,1,Guru
+11,1,55,2,1,4,2,1,Gula Aren
+12,2,20,1,2,0,4,1,Karyawan Warung
+13,1,40,2,1,1,2,1,Warung
+14,2,15,1,2,0,3,2,
+15,2,50,2,1,3,2,1,Warung
+16,2,29,2,1,1,3,1,Pedagang keliling
+17,1,43,3,1,2,2,1,Petani
+18,1,37,2,1,2,2,2,Tukang Bangunan (Suami)
+19,1,27,2,1,1,3,1,Jualan seblak dan minuman dingin
+20,1,45,3,2,2,2,1,Warung
+21,1,35,2,1,2,5,1,Bidan
+22,2,42,2,1,2,2,1,Penjahit
+23,1,49,2,1,3,4,1,Petani dan Pengelola PAUD
+24,2,23,2,1,1,4,1,Karyawan Zhongmin
+25,2,32,2,1,1,4,1,Bengkel
+26,2,43,2,1,4,6,1,Kepala desa
+27,2,38,2,1,1,6,1,Staff desa
+28,1,27,2,1,2,4,1,Staff desa
+29,1,35,2,1,1,6,1,Staff desa
+30,2,52,2,1,2,2,1,Linmas
+31,1,45,2,1,2,2,1,Pedagang
+32,2,35,3,1,1,3,1,Buruh tani
+33,2,35,2,1,1,2,1,Buruh tani
+34,2,35,2,1,1,3,1,Buruh tani dan Buruh Pt
+35,1,40,2,1,3,2,1,Pedagang
+36,2,45,2,1,5,2,1,Pedagang
+37,1,60,2,1,9,1,1,Petani
+38,1,37,2,1,1,2,1,Buruh tani
+39,1,33,2,1,3,2,2,
+40,1,60,2,1,3,2,2,
+41,1,48,2,1,2,1,2,
+42,1,54,2,1,6,2,2,
+43,1,45,2,1,4,2,2,
+44,1,45,2,1,2,2,2,
+45,1,39,2,1,2,2,1,Buruh tani
+46,2,38,2,1,2,2,1,Buruh tani
+47,1,50,2,1,2,2,2,
+48,1,36,2,1,2,2,2,
+49,2,73,2,1,4,2,1,Linmas
+50,2,37,2,1,1,2,1,Buruh tani
+51,2,56,2,1,8,4,1,Kepala desa
+52,2,49,2,1,7,4,1,"Wirausaha, ternak ikan, dan buruh harial lepas"
+53,2,43,2,1,8,2,1,Berdagang
+54,1,36,2,1,2,3,2,
+55,1,29,3,1,4,2,1,Berjualan online
+56,2,24,1,2,0,4,1,Wirausaha
+57,2,37,2,1,3,3,1,Ternak ikan
+58,2,31,2,1,1,3,1,Petani
+59,1,46,2,1,3,4,2,
+60,1,43,2,1,3,4,1,Berjualan mie ayam
+61,2,52,3,1,2,4,1,Buruh harian lepas
+62,2,18,1,2,0,4,1,Penjaga toko
+63,2,55,2,1,3,2,1,Buruh tani
+64,1,50,2,1,4,3,2,
+65,2,55,2,1,3,4,1,Staf desa
+66,1,47,2,1,2,2,1,Berjualan bakso
+67,1,32,2,1,3,2,2,
+68,1,43,2,1,3,3,1,Warung
+69,2,36,2,1,2,4,1,Staf desa
+70,1,27,2,1,1,6,1,Perangkat desa
+71,2,39,2,1,3,4,1,Staf desa
+72,2,60,2,1,1,3,1,Berdagang
+73,2,58,2,1,4,3,2,
+74,2,50,3,1,1,2,1,Ketua RT 01/03
+75,2,74,2,1,4,2,2,
+76,2,55,2,1,6,2,1,Pemilik warung
+77,1,54,1,1,4,2,1,Usaha tambak ikan
+78,2,40,1,1,3,2,1,Pemilik warung
+79,2,32,1,1,3,4,2,
+80,2,32,1,1,1,4,2,
+81,2,47,1,1,1,4,1,Pemilik warung
+82,1,57,1,1,1,4,1,Penjual bahan material
+83,1,42,1,1,3,2,1,Mengurus kandang ayam
+84,1,43,1,1,3,3,1,Staf desa
+85,1,43,1,1,2,2,1,Tukang Bubur
+86,2,32,1,1,2,4,2,
+87,2,43,1,1,2,2,1,Pedagang
+88,2,32,1,1,1,2,1,Usaha RM Padang
+89,1,45,1,1,1,2,1,Mengambil pasir di sungai
+90,2,53,4,1,4,2,1,Home industri kue kering
+91,1,67,1,1,5,2,1,Petani
+92,1,63,1,1,8,3,1,Serabutan
+93,2,21,3,2,0,4,2,
+94,2,33,1,1,3,2,1,Warung Kecil
+95,2,26,1,1,2,4,2,
+96,2,37,1,1,2,2,2,
+97,1,67,1,1,6,8,1,Buruh
+98,2,37,1,1,2,2,2,
+99,2,43,1,1,2,2,2,
+100,2,52,1,1,3,3,2,
+101,2,47,2,1,3,4,1,Kepala Desa
+102,2,45,2,1,2,6,1,Sekretaris Desa
+103,2,27,1,2,0,6,1,Staff Desa
+104,2,26,2,2,0,6,1,Staff Desa
+105,1,45,2,1,2,4,1,Staff Desa
+106,2,59,2,1,3,4,1,Bappedas
+107,2,47,2,1,4,4,1,Wiraswasta
+108,2,40,2,1,2,5,1,Pedagang
+109,2,73,2,1,4,2,2,
+110,2,62,2,1,10,2,1,Wiraswasta
+111,2,34,2,1,1,4,1,Usaha konter
+112,2,70,2,1,2,3,2,
+113,2,45,2,1,3,4,1,Wirausaha
+114,1,28,2,1,2,4,1,Wirausaha
+115,1,52,3,1,6,2,2,
+116,2,41,2,1,3,4,1,Tani
+117,2,68,2,2,0,1,1,Buruh
+118,2,67,2,1,3,2,1,Tukang Tani
+119,1,40,2,1,3,2,1,Wiraswasta
+120,1,32,2,1,2,2,2,
+121,1,27,2,1,2,4,2,
+122,1,41,2,1,2,6,1,Guru
+123,2,30,2,1,1,6,1,Perawat Desa
+124,2,26,2,2,0,6,1,Guru
+125,2,40,2,1,2,3,1,Wiraswasta
+126,2,59,2,1,2,3,1,Kepala desa
+127,2,49,2,1,2,4,1,Perangkat desa
+128,2,45,2,1,4,4,1,Perangkat desa
+129,1,30,2,1,2,4,1,Perangkat desa
+130,2,34,2,1,2,4,1,Perangkat desa
+131,1,41,2,2,0,4,2,
+132,1,32,2,2,0,4,2,
+133,1,33,2,2,0,4,2,
+134,1,37,2,1,2,4,2,
+135,1,35,2,1,2,4,2,
+136,2,39,2,1,2,3,1,Jual  beli
+137,2,38,2,1,2,4,2,
+138,2,54,2,1,2,2,1,Petani
+139,1,27,2,1,2,2,1,Wiraswasta
+140,1,17,1,2,0,3,2,
+141,2,37,2,1,2,2,1,Pedagang
+142,2,30,1,2,0,1,2,
+143,1,54,2,1,2,2,1,Produksi gula aren
+144,2,38,2,1,2,2,1,Petani
+145,2,35,2,1,2,3,2,
+146,1,33,2,1,3,4,2,
+147,2,27,1,2,0,4,2,
+148,2,31,2,1,1,4,1,Peternakan
+149,1,31,2,1,2,3,2,
+150,2,30,2,1,1,3,1,Petani
