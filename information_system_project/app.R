@@ -43,8 +43,8 @@ ui <- dashboardPage(
         "SISTEM INFORMASI KETERBUKAAN DESA BANTARKULON"
       ),
       tags$div(
-        tags$img(src = "DesaMekarsari.png", height = "30px", style = "margin-right: 10px;"),
-        tags$img(src = "SekolahVokasiIPB.png", height = "30px", style = "margin-right: 10px;"),
+        tags$img(src = "Pekalongan.png", height = "46px", style = "margin-right: 10px;"),
+        tags$img(src = "SekolahVokasiIPB.png", height = "40px", style = "margin-right: 10px;"),
       ),
       style = "display: flex; justify-content: space-between"
     ),
@@ -54,7 +54,7 @@ ui <- dashboardPage(
     sidebarMenu(
       id = "tabs",
       menuItem("Profil Desa", tabName = "dashboard", icon = icon("dashboard")),
-      menuItem("Korelasi", tabName = "korelasi", icon = icon("chart-line")),
+      menuItem("Analisis", tabName = "korelasi", icon = icon("chart-line")),
       menuItem("Data Model",
         icon = icon("database"),
         conditionalPanel(

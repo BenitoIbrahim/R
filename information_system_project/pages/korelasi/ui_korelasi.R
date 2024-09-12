@@ -9,7 +9,7 @@ tabItemKorelasi <- tabItem(
   ")),
   fluidRow(
     box(
-      title = "Korelasi Data",
+      title = "Analisis Data",
       status = "primary",
       solidHeader = TRUE,
       width = 12,

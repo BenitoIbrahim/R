@@ -69,10 +69,10 @@ tabItemProfilDesa <- tabItem(tabName = "dashboard",
                              fluidRow(box(
                                title = h3(tags$b("Persebaran Laki-laki dan Perempuan")),
                                solidHeader = TRUE,
-                               width = 12,
+                               width = 5,
                                box(
                                  solidHeader = TRUE,
-                                 width = 4,
+                                 width = 2,
                                  h4(
                                    tags$b("Total Kepala Keluarga : ") ,
                                    textOutput("kepalaKeluarga")
@@ -81,7 +81,7 @@ tabItemProfilDesa <- tabItem(tabName = "dashboard",
                                fluidRow(
                                  box(
                                    solidHeader = TRUE,
-                                   width = 8,
+                                   width = 2,
                                    plotOutput("lakiPerempuan")
                                  ),
                                  box(
