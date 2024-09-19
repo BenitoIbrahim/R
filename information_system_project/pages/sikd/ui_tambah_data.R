@@ -56,7 +56,7 @@ tabItemTambahData <- tabItem(
         textInput("Jumlah.satuan", "Jumlah satuan")
       ),
       
-      # pendanan
+      # pendanaan
       box(
         status = "warning",
         width = 12,h4(tags$b("Pendanaan Desa")),
@@ -89,6 +89,7 @@ tabItemTambahData <- tabItem(
                     ),
         ),
         textInput("Modal.awal", "Modal awal (Rp)"),
+        
         selectInput("Apakah.Bapak.Ibu.mengetahui.adanya.perusahaan.listrik", "Apakah Bapak/Ibu mengetahui adanya perusahaan listrik? :",
                     c(
                       "Tahu"="1",
@@ -96,6 +97,7 @@ tabItemTambahData <- tabItem(
                     ),
         ),
         textInput("Jika.tahu.sudah.berapa.lama.perusahaan.beraktifitas.tahun", "Jika tahu, sudah berapa lama perusahaan beraktifitas? (tahun)"),
+        
         selectInput("Apakah.perusahaan.memberikan.bantuan.buat.masyarakat.desa", "Apakah perusahaan memberikan bantuan buat masyarakat desa? :",
                     c(
                       "Tahu"="1",

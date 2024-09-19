@@ -342,7 +342,6 @@ observeEvent(input$add, {
     stringsAsFactors = FALSE
   )
   
-  
   data_pendanaan <- loadDataPendanaan()
   data_pendanaan <- rbind(data_pendanaan, new_data_pendanaan)
   successPendanaan <- safeWriteCSV(data_pendanaan, paste0(pathTambahPendanaan, ".tmp"))
