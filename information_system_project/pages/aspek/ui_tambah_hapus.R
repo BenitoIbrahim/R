@@ -11,10 +11,6 @@ tabItemTambahHapusAspek <- tabItem(
         status = "primary",
         width = 12,
         h4(tags$b("Identitas Responden")),
-        textInput(
-          "Nama_Identitas", "Nama"
-          
-        ),
         selectInput(
           "Jenis.kelamin", "Jenis kelamin",
           c(

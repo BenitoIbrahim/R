@@ -43,8 +43,8 @@ ui <- dashboardPage(
         "SISTEM INFORMASI KETERBUKAAN DESA BANTARKULON"
       ),
       tags$div(
-        tags$img(src = "Pekalongan.png", height = "46px", style = "margin-right: 10px;"),
-        tags$img(src = "SekolahVokasiIPB.png", height = "40px", style = "margin-right: 10px;"),
+        tags$img(src = "Pekalongan.png", height = "40px", style = "margin-right: 10px;"),
+        tags$img(src = "SekolahVokasiIPB.png", height = "30px", style = "margin-right: 10px;"),
       ),
       style = "display: flex; justify-content: space-between"
     ),

@@ -44,8 +44,6 @@ render_server_identitas <- function (params) {
         )
       )
     
-    data <- data %>% 
-      select(-Nama)
     
     action_buttons <- if (!is.null(input$stored_user)) {
       paste0(
@@ -161,7 +159,6 @@ render_server_identitas <- function (params) {
     } else {
       data.frame(
         No = character(),
-        Nama=character(),	
         Jenis.kelamin=character(),	
         Usia.tahun=character(),	
         Status.perkawinan=character(),	
@@ -191,7 +188,6 @@ render_server_identitas <- function (params) {
     updateSelectInput(session, 'Tingkat.pendidikan.edit', selected=data$Tingkat.pendidikan)
     updateSelectInput(session, 'Apakah.anda.bekerja.saat.ini.edit', selected=data$Apakah.anda.bekerja.saat.ini)
     updateTextInput(session, 'Jika.bekerja.apa.pekerjaan.anda.saat.ini.edit', value=data$Jika.bekerja.apa.pekerjaan.anda.saat.ini)
-    updateTextInput(session, 'Nama_Identitas.edit', value=data$Nama)
     
     session$sendCustomMessage("selected_id_aspek", id)
   })
@@ -210,7 +206,6 @@ render_server_identitas <- function (params) {
       
       data[data$No == input$selected_id_aspek, ] <- data.frame(
         No = input$selected_id_aspek,
-        Nama=input$Nama_Identitas.edit,	
         Jenis.kelamin=input$Jenis.kelamin.edit,	
         Usia.tahun=input$Usia.tahun.edit,	
         Status.perkawinan=input$Status.perkawinan.edit,	

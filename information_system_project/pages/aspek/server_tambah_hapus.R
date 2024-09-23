@@ -24,7 +24,6 @@ resetInputsAspek <- function() {
   updateSelectInput(session, 'Tingkat.pendidikan')
   updateSelectInput(session, 'Apakah.anda.bekerja.saat.ini')
   updateTextInput(session, 'Jika.bekerja.apa.pekerjaan.anda.saat.ini', value="")
-  updateTextInput(session, 'Nama_Identitas', value="")
   
   updateSelectInput(
     session,
@@ -149,7 +148,6 @@ loadDataIdentitasResponden <- function() {
   } else {
     data.frame(
       No = character(),
-      Nama=character(),	
       Jenis.kelamin=character(),	
       Usia.tahun=character(),	
       Status.perkawinan=character(),	
@@ -257,7 +255,6 @@ observeEvent(input$addAspek, {
   
   new_dataIdentitasResponden <- data.frame(
     No = ifelse(nrow(loadDataIdentitasResponden()) == 0, "1", max(loadDataIdentitasResponden()$No) + 1),
-    Nama=input$Nama_Identitas,	
     Jenis.kelamin=input$Jenis.kelamin,	
     Usia.tahun=input$Usia.tahun,	
     Status.perkawinan=input$Status.perkawinan,	

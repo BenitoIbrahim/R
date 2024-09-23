@@ -77,10 +77,6 @@ tabItemIdentitas <- tabItem(
           status = "primary",
           width = 12,
           h4(tags$b("Identitas Responden")),
-          textInput(
-            "Nama_Identitas.edit", "Nama"
-            
-          ),
           selectInput(
             "Jenis.kelamin.edit", "Jenis kelamin",
             c(
