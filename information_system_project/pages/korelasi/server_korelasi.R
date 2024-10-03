@@ -70,9 +70,7 @@ create_correlation_explanation <- function(data, var1, var2) {
 output$korelasi1Plot <- renderPlot({
   # Korelasi 1: Potensi Desa dan Pembangunan Ekonomi
   # Karena data potensi desa bersifat kategorikal, kita akan menggunakan bar plot
-  
   plot_width <- session$clientData$output_korelasi1Plot_width
-  
   nrow_legend <- reactive({
     if (plot_width > 1000) {
       return(15)  
@@ -82,7 +80,6 @@ output$korelasi1Plot <- renderPlot({
       return(50)  
     }
   })
-  
   ggplot(potensi_desa, aes(x = Bidang, fill = Jenis.potensi)) +
     geom_bar() +
     theme_minimal() +
@@ -99,19 +96,6 @@ output$korelasi1Plot <- renderPlot({
     return(1500)  
   }
 }))
-
-# output$korelasi1Plot <- renderPlot({
-#   ggplot(potensi_desa, aes(x = Bidang, fill = Jenis.potensi)) +
-#     geom_bar() +
-#     theme_minimal() +
-#     theme(
-#       axis.text.x = element_text(angle = 45, hjust = 1), # Atur rotasi teks sumbu x
-#       legend.position = "bottom", # Legend di bawah
-#       legend.text = element_text(size = 8), # Ukuran teks legend
-#       plot.margin = margin(10, 10, 50, 10) # Margin untuk memberikan ruang lebih
-#     ) +
-#     guides(fill = guide_legend(nrow = 2)) # Mengatur legend menjadi dua baris
-# }, width = 12, height = 8) # Atur ukuran plot
 
 output$korelasi1Explanation <- renderText({
   Jenis.potensi <- "Jenis.potensi"
@@ -433,127 +417,6 @@ output$korelasi7Plot <- renderPlot({
     theme_minimal()
 })
 
-# output$korelasi7Explanation <- renderText({
-# 
-#   data <- karakteristik
-#   
-#   # Filter data to remove rows with NA in specified columns
-#   data <- data %>%
-#     drop_na(Pendidikan, Usia, Jenis.Usaha)
-#   
-#   # Define the column names
-#   color_var <- "Jenis.Usaha"
-#   x_var <- "Pendidikan"
-#   y_var <- "Usia"
-#   
-#   # Group and summarise the data
-#   summary_data <- data %>%
-#     group_by(.data[[color_var]]) %>%
-#     summarise(
-#       avg_usia = mean(.data[[y_var]], na.rm = TRUE),
-#       median_pendidikan = median(.data[[x_var]], na.rm = TRUE)
-#     )
-#   
-#   # Generate the explanation text
-#   explanation <- paste(
-#     "Visualisasi hubungan antara Pendidikan, Usia, dan Jenis Usaha menunjukkan pola-pola menarik yang memberikan wawasan tentang interaksi antara faktor-faktor ini. Berikut adalah beberapa temuan utama:",
-#     paste0(
-#       "1. Jenis Usaha '",
-#       summary_data[[color_var]][1],
-#       "': Rata-rata usia pekerja adalah ",
-#       round(summary_data$avg_usia[1], 2),
-#       " tahun, dengan median tingkat pendidikan '",
-#       summary_data$median_pendidikan[1],
-#       "'."
-#     ),
-#     paste0(
-#       "2. Jenis Usaha '",
-#       summary_data[[color_var]][2],
-#       "': Rata-rata usia pekerja adalah ",
-#       round(summary_data$avg_usia[2], 2),
-#       " tahun, dengan median tingkat pendidikan '",
-#       summary_data$median_pendidikan[2],
-#       "'."
-#     ),
-#     paste0(
-#       "3. Jenis Usaha '",
-#       summary_data[[color_var]][3],
-#       "': Rata-rata usia pekerja adalah ",
-#       round(summary_data$avg_usia[3], 2),
-#       " tahun, dengan median tingkat pendidikan '",
-#       summary_data$median_pendidikan[3],
-#       "'."
-#     ),
-#     "Dari hasil ini, kita dapat mengamati bahwa terdapat variasi yang signifikan dalam tingkat pendidikan dan usia pekerja berdasarkan jenis usaha yang mereka geluti. Misalnya, beberapa jenis usaha mungkin lebih banyak menarik tenaga kerja yang lebih tua dengan pendidikan yang lebih tinggi, sementara jenis usaha lain mungkin didominasi oleh pekerja muda dengan pendidikan lebih rendah.",
-#     "Penemuan ini memberikan wawasan tentang bagaimana dampak lingkungan sosial dan ekonomi dapat memengaruhi kualitas hidup. Kualitas hidup dapat terkait erat dengan jenis usaha yang tersedia, tingkat pendidikan yang diperlukan, dan usia tenaga kerja. Jika usia pekerja lebih tua dalam usaha yang membutuhkan pendidikan lebih tinggi, hal ini mungkin menunjukkan kestabilan ekonomi tetapi juga tantangan dalam adaptasi teknologi atau inovasi. Sebaliknya, usaha yang didominasi oleh pekerja muda dengan pendidikan lebih rendah mungkin mencerminkan dinamika pasar tenaga kerja yang lebih fleksibel tetapi juga lebih rentan terhadap fluktuasi ekonomi.",
-#     sep = "\n"
-#   )
-#   
-#   explanation
-# })
-
-# output$korelasi7Explanation <- renderText({
-#   
-#   # Filter data untuk menghilangkan nilai NA
-#   data_filtered <- karakteristik %>%
-#     filter(!is.na(Pendidikan), !is.na(Usia), !is.na(Jenis.Usaha))
-#   
-#   # Buat ringkasan data
-#   summary_data <- data_filtered %>%
-#     group_by(Jenis.Usaha) %>%
-#     summarise(
-#       avg_usia = mean(Usia, na.rm = TRUE),
-#       median_pendidikan = median(Pendidikan, na.rm = TRUE)
-#     )
-#   
-#   # Bangun narasi
-#   explanation <- paste(
-#     "Analisis korelasi antara Pendidikan, Usia, dan Jenis Usaha menunjukkan beberapa temuan penting:",
-#     paste0(
-#       "1. Jenis Usaha '", summary_data$Jenis.Usaha[1], 
-#       "': Rata-rata usia pekerja adalah ", round(summary_data$avg_usia[1], 2), 
-#       " tahun, dengan median tingkat pendidikan '", summary_data$median_pendidikan[1], "'."
-#     ),
-#     paste0(
-#       "2. Jenis Usaha '", summary_data$Jenis.Usaha[2], 
-#       "': Rata-rata usia pekerja adalah ", round(summary_data$avg_usia[2], 2), 
-#       " tahun, dengan median tingkat pendidikan '", summary_data$median_pendidikan[2], "'."
-#     ),
-#     paste0(
-#       "3. Jenis Usaha '", summary_data$Jenis.Usaha[3], 
-#       "': Rata-rata usia pekerja adalah ", round(summary_data$avg_usia[3], 2), 
-#       " tahun, dengan median tingkat pendidikan '", summary_data$median_pendidikan[3], "'."
-#     ),
-#     "Temuan ini menunjukkan variasi yang signifikan dalam usia dan tingkat pendidikan berdasarkan jenis usaha yang digeluti. Misalnya, jenis usaha dengan usia pekerja yang lebih tua cenderung memiliki tingkat pendidikan yang lebih tinggi, menunjukkan pengalaman dan stabilitas dalam usaha tersebut.",
-#     sep = "\n"
-#   )
-#   
-#   return(explanation)
-# })
-
-# output$korelasi7Explanation <- renderText({
-#   data_filtered <- karakteristik %>%
-#     mutate(
-#       Pendidikan = as.numeric(Pendidikan),
-#       Usia = as.numeric(Usia)
-#     )
-#   
-#   # Hitung korelasi dengan mengabaikan pasangan yang memiliki NA
-#   correlation_value <- cor(data_filtered$Pendidikan, data_filtered$Usia, method = "pearson", use = "pairwise.complete.obs")
-#   
-#   # Buat penjelasan dinamis
-#   if (is.na(correlation_value)) {
-#     explanation <- "Data tidak cukup untuk menghitung korelasi yang valid."
-#   } else if (correlation_value > 0.5) {
-#     explanation <- "Terdapat korelasi positif yang kuat antara tingkat pendidikan dan usia."
-#   } else if (correlation_value < -0.5) {
-#     explanation <- "Terdapat korelasi negatif yang kuat antara tingkat pendidikan dan usia."
-#   } else {
-#     explanation <- "Korelasi antara tingkat pendidikan dan usia tidak signifikan."
-#   }
-#   
-#   paste("Nilai korelasi antara tingkat pendidikan dan usia adalah", round(correlation_value, 2), ".", explanation)
-# })
 
 output$korelasi7Explanation <- renderText({
   data_filtered <- karakteristik %>%
