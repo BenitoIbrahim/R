@@ -1,0 +1,12 @@
+name: information_system
+title: information_system
+username: desamekasari
+account: desamekasari
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 12474728
+bundleId: 9005271
+url: https://desamekasari.shinyapps.io/information_system/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
